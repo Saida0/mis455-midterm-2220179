@@ -319,6 +319,23 @@ body {
     font-size: 1.05rem;
 }
 
+/* ===== Products: Cart Bar ===== */
+.cart-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--green-light);
+    border-left: 5px solid var(--green);
+    padding: 14px 20px;
+    border-radius: var(--radius);
+    margin: 20px auto 30px;
+}
+
+.btn-small {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+}
+
 /* ===== Products: Grid ===== */
 .product-grid {
     display: grid;

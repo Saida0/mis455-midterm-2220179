@@ -38,6 +38,12 @@
             <p>Not sure where to start? Our Masala Chai Blend and Srimangal Black Tea are customer favourites, while the Hibiscus Herbal is a great caffeine-free choice for the evening. Add your favourites to the cart below and see your total update instantly.</p>
         </section>
 
+        <!-- Cart summary -->
+        <section class="container cart-bar">
+            <p>&#128722; Cart: <strong id="cart-count">0</strong> item(s) | Total: <strong>&#2547;<span id="cart-total">0</span></strong></p>
+            <button class="btn btn-gold btn-small" onclick="clearCart()">Clear Cart</button>
+        </section>
+
         <!-- Product grid (display: grid) -->
         <section class="container">
             <div class="product-grid">
@@ -133,5 +139,7 @@
         </div>
         <p class="copyright">&copy; 2026 Leaf &amp; Brew Tea House. Designed by Sumaya Binte Saida (2220179).</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

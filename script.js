@@ -24,3 +24,22 @@ function showTeaTip() {
     var index = Math.floor(Math.random() * teaTips.length);
     document.getElementById("tea-tip").textContent = "Tip: " + teaTips[index];
 }
+
+// Products page: simple shopping cart
+var cartCount = 0;
+var cartTotal = 0;
+
+function addToCart(productName, price) {
+    cartCount = cartCount + 1;
+    cartTotal = cartTotal + price;
+    document.getElementById("cart-count").textContent = cartCount;
+    document.getElementById("cart-total").textContent = cartTotal;
+    alert(productName + " has been added to your cart!");
+}
+
+function clearCart() {
+    cartCount = 0;
+    cartTotal = 0;
+    document.getElementById("cart-count").textContent = cartCount;
+    document.getElementById("cart-total").textContent = cartTotal;
+}
