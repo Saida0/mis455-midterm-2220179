@@ -26,7 +26,89 @@
     </header>
 
     <main>
-        <!-- page content will go here -->
+        <section class="page-banner">
+            <div class="container">
+                <h1>Our Teas</h1>
+                <p>Choose from our collection of hand-picked loose-leaf teas.</p>
+            </div>
+        </section>
+
+        <section class="container intro">
+            <p>Every tea in our shop is packed in small batches in airtight tins to keep the leaves fresh and fragrant. Each 100g tin makes around 40 to 50 cups, so a little goes a long way. Prices are shown in Bangladeshi Taka and include VAT.</p>
+            <p>Not sure where to start? Our Masala Chai Blend and Srimangal Black Tea are customer favourites, while the Hibiscus Herbal is a great caffeine-free choice for the evening. Add your favourites to the cart below and see your total update instantly.</p>
+        </section>
+
+        <!-- Product grid (display: grid) -->
+        <section class="container">
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/green-tea.svg" alt="Sylhet Green Tea">
+                    <div class="product-info">
+                        <h3>Sylhet Green Tea</h3>
+                        <p>Light, fresh and full of antioxidants. Perfect for a calm afternoon.</p>
+                        <div class="product-bottom">
+                            <span class="price">&#2547;450 <small>/ 100g</small></span>
+                            <button class="btn btn-green btn-small" onclick="addToCart('Sylhet Green Tea', 450)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/black-tea.svg" alt="Srimangal Black Tea">
+                    <div class="product-info">
+                        <h3>Srimangal Black Tea</h3>
+                        <p>Bold and malty with a rich amber colour. Great with milk.</p>
+                        <div class="product-bottom">
+                            <span class="price">&#2547;380 <small>/ 100g</small></span>
+                            <button class="btn btn-green btn-small" onclick="addToCart('Srimangal Black Tea', 380)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/masala-chai.svg" alt="Masala Chai Blend">
+                    <div class="product-info">
+                        <h3>Masala Chai Blend</h3>
+                        <p>Black tea with cardamom, ginger, cinnamon and clove.</p>
+                        <div class="product-bottom">
+                            <span class="price">&#2547;520 <small>/ 100g</small></span>
+                            <button class="btn btn-green btn-small" onclick="addToCart('Masala Chai Blend', 520)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/jasmine-tea.svg" alt="Jasmine Pearl Tea">
+                    <div class="product-info">
+                        <h3>Jasmine Pearl Tea</h3>
+                        <p>Green tea scented with fresh jasmine flowers for a floral aroma.</p>
+                        <div class="product-bottom">
+                            <span class="price">&#2547;650 <small>/ 100g</small></span>
+                            <button class="btn btn-green btn-small" onclick="addToCart('Jasmine Pearl Tea', 650)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/oolong-tea.svg" alt="Golden Oolong">
+                    <div class="product-info">
+                        <h3>Golden Oolong</h3>
+                        <p>Half-oxidised leaves with a smooth, honey-like taste.</p>
+                        <div class="product-bottom">
+                            <span class="price">&#2547;780 <small>/ 100g</small></span>
+                            <button class="btn btn-green btn-small" onclick="addToCart('Golden Oolong', 780)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/herbal-tea.svg" alt="Hibiscus Herbal">
+                    <div class="product-info">
+                        <h3>Hibiscus Herbal</h3>
+                        <p>Caffeine-free hibiscus and rose petals. Tangy and refreshing.</p>
+                        <div class="product-bottom">
+                            <span class="price">&#2547;420 <small>/ 100g</small></span>
+                            <button class="btn btn-green btn-small" onclick="addToCart('Hibiscus Herbal', 420)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">

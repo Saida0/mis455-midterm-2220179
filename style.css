@@ -292,3 +292,88 @@ body {
 .about-text .message {
     color: var(--green);
 }
+
+/* ===== Page Banner (Products & Contact) ===== */
+.page-banner {
+    background: linear-gradient(135deg, var(--green-dark), var(--green));
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.page-banner h1 {
+    font-family: Georgia, serif;
+    font-size: 2.6rem;
+}
+
+.page-banner p {
+    color: #e7f1e9;
+}
+
+.intro {
+    margin-top: 40px;
+}
+
+.intro p {
+    margin-bottom: 14px;
+    font-size: 1.05rem;
+}
+
+/* ===== Products: Grid ===== */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
+}
+
+.product-card img {
+    width: 100%;
+    display: block;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-info h3 {
+    color: var(--green-dark);
+    margin-bottom: 6px;
+}
+
+.product-info p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    min-height: 3.2em;
+}
+
+.product-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--green);
+}
+
+.price small {
+    font-size: 0.8rem;
+    color: var(--muted);
+    font-weight: 400;
+}
