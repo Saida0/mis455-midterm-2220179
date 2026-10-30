@@ -26,7 +26,60 @@
     </header>
 
     <main>
-        <!-- page content will go here -->
+        <!-- Hero section (display: flex) -->
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <h1>Fresh Tea, Straight From the Garden</h1>
+                    <p>At Leaf &amp; Brew we bring you premium loose-leaf teas sourced directly from small family estates in Sylhet, Srimangal and Darjeeling. Every leaf is hand-picked, gently dried and packed within days, so the flavour you taste at home is just as bright as it was in the garden.</p>
+                    <p>Whether you love a strong morning cup of black tea, a calming green tea in the afternoon or a spicy masala chai with friends, we have a blend made for you.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-gold" onclick="showWelcome()">Get Welcome Offer</button>
+                        <a href="products.html" class="btn btn-outline">Shop Teas</a>
+                    </div>
+                    <p id="welcome-message" class="message"></p>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-tea.svg" alt="A steaming cup of fresh tea">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features (display: flex) -->
+        <section class="features container">
+            <h2 class="section-title">Why Choose Leaf &amp; Brew?</h2>
+            <div class="feature-list">
+                <div class="feature-card">
+                    <span class="feature-icon">&#127807;</span>
+                    <h3>100% Natural</h3>
+                    <p>No artificial flavours, colours or preservatives. Just pure leaves and real spices.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">&#128666;</span>
+                    <h3>Fast Delivery</h3>
+                    <p>Same-day delivery inside Dhaka and 2 to 3 days anywhere else in Bangladesh.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">&#129309;</span>
+                    <h3>Fair Trade</h3>
+                    <p>We pay tea garden workers fair prices and support their local communities.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section (display: flex) -->
+        <section class="about container">
+            <div class="about-image">
+                <img src="images/tea-garden.svg" alt="Green tea garden on rolling hills">
+            </div>
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>Leaf &amp; Brew started in 2020 as a small stall in Dhaka run by two friends who grew up near the tea gardens of Srimangal. They missed the taste of truly fresh tea in the city, so they began bringing small batches back home for family and neighbours.</p>
+                <p>Today we work with more than fifteen estates and serve thousands of happy tea lovers. Our promise has never changed: honest prices, fresh leaves and a cup that makes your day a little better.</p>
+                <button class="btn btn-green" onclick="showTeaTip()">Show Me a Tea Tip</button>
+                <p id="tea-tip" class="message"></p>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
